@@ -1,0 +1,1 @@
+This app was built from scratch with a custom webpack and babel setup to work with images, styling and fonts.

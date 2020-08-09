@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "BebasNeue Bold";
+  src: url("./assets/fonts/BebasNeue Bold.ttf"); }
+
+@font-face {
+  font-family: "BebasNeue Regular";
+  src: url("./assets/fonts/BebasNeue Regular.ttf"); }
+
+@font-face {
+  font-family: "Antonio-Regular";
+  src: url("./assets/fonts/Antonio-Regular.ttf"); }
+
+html {
+  box-sizing: border-box; }
+
+body {
+  font-size: 62.5%; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+button:focus {
+  outline: 0; }
+
+.noDisplay {
+  display: none; }
+
+.noVisibility {
+  visibility: hidden; }
+
+.contentBackground {
+  position: absolute;
+  z-index: 50;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(14, 14, 14, 0.893); }
